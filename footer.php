@@ -34,7 +34,7 @@
         </li>
         <li>
             <Section class="footer-discovery">
-                <h1>DESCOVER</h1>
+                <h1>DISCOVER</h1>
                 <ul>
                     <li>
                         FAQs
