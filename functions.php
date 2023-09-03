@@ -10,7 +10,9 @@ add_action("wp_enqueue_scripts", "add_theme");
 function add_theme()
 {
     wp_enqueue_style('common_css', OMNI_CSS . '/common.css');
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_style('top_css', OMNI_CSS . '/top.css');
+    wp_enqueue_style('bottom_css', OMNI_CSS . '/bottom.css');
     wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css');
     wp_enqueue_script('aos_js', OMNI_JS . '/aos.js', NULL, 1.0, true);
     wp_enqueue_script('jquery_js', OMNI_JS . '/jquery.js', NULL, 1.0, true);

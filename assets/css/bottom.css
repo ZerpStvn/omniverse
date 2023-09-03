@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "JakartaSans";
+  src: url("../fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-color: #12222f;
+  --secondary-color: #a14198;
+  --Omni-Yellow: #feba16;
+  --white: #fff;
+  --Muted-Text: #838383;
+  --Omni-Dark: #12222f;
+  --Inter: "Inter";
+  --JakartaSans: "JakartaSans";
+}
+.footer-container {
+  background: var(--main-color);
+}
+#footerlist {
+  border-top: 3px solid white;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footerlist > li > p {
+  margin-top: 20px;
+  width: 511px;
+  color: var(--white);
+  font-family: var(--JakartaSans);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.socials > a {
+  margin: 20px 15px 0 0;
+  text-decoration: none;
+  color: var(--white);
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.footer-discovery > ul > li {
+  margin-top: 10px;
+  list-style: none;
+  margin-top: 20px;
+}
+.footer-services > ul > li {
+  margin-top: 10px;
+  list-style: none;
+  margin-top: 20px;
+}
+#footerlist li > section {
+  color: var(--white);
+}
+.footer-contactdetails p {
+  margin-top: 20px;
+}
+.footer-contactdetails p > span {
+  margin-left: 10px;
+}
