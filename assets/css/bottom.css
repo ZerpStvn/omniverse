@@ -26,7 +26,7 @@
   background: var(--main-color);
 }
 #footerlist {
-  border-top: 3px solid white;
+  border-top: 0.117vw solid white;
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -34,39 +34,39 @@
   justify-content: space-between;
 }
 #footerlist > li > p {
-  margin-top: 20px;
-  width: 511px;
+  margin-top: 0.781vw;
+  width: 19.961vw;
   color: var(--white);
   font-family: var(--JakartaSans);
-  font-size: 24px;
+  font-size: 0.938vw;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1.25vw;
 }
 .socials > a {
-  margin: 20px 15px 0 0;
+  margin: 0.781vw 0.586vw 0 0;
   text-decoration: none;
   color: var(--white);
   border: 1px solid white;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 20px;
+  padding: 0.391vw;
+  border-radius: 0.313vw;
+  font-size: 0.781vw;
 }
 .footer-discovery > ul > li {
-  margin-top: 10px;
+  margin-top: 0.391vw;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 0.781vw;
 }
 .footer-services > ul > li {
-  margin-top: 10px;
+  margin-top: 0.391vw;
   list-style: none;
-  margin-top: 20px;
+  margin-top: 0.781vw;
 }
 #footerlist li > section {
   color: var(--white);
 }
 .footer-contactdetails p {
-  margin-top: 20px;
+  margin-top: 0.781vw;
 }
 .footer-contactdetails p > span {
-  margin-left: 10px;
+  margin-left: 0.391vw;
 }

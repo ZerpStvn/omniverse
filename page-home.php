@@ -112,8 +112,8 @@
         </p>
         <div class="six-col-container">
             <div class="six-left-corner">
-                <ul id="six-list-corner">
-                    <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <ul data-aos="fade-right" data-aos-offset="500" id="six-list-corner">
+                    <li>
                         <div class="inside-padding circularAvart">
                             <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
                                 alt="">
@@ -123,7 +123,7 @@
                             <p>Lorem Ipsum is simply dummy text of the printing dummy text of the .</p>
                         </section>
                     </li>
-                    <li data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
+                    <li>
                         <div class="inside-padding circularAvart">
                             <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
                                 alt="">
@@ -133,7 +133,7 @@
                             <p>Lorem Ipsum is simply dummy text of the printing dummy text of the .</p>
                         </section>
                     </li>
-                    <li data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                    <li>
                         <div class="inside-padding circularAvart">
                             <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
                                 alt="">

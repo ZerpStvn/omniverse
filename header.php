@@ -14,10 +14,10 @@
             <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="logo">
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
-                    <li>What is Meta</li>
-                    <li>How it Works</li>
-                    <li>Benefits</li>
-                    <li>ForWho</li>
+                    <li><a href="">What is Meta</a></li>
+                    <li><a href="">How it Works</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">ForWho</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
                 <button>Schedule a meeting</button>
             </section>
             <div class="right-content">
-                <!-- <img src="<?php echo get_template_directory_uri() . "/assets/images/ractangle.svg" ?>" alt="reactangle"> -->
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/retangle.svg" ?>" alt="rectangle">
             </div>
         </div>
     </div>
