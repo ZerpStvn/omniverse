@@ -112,4 +112,5 @@ button {
   font-size: 1.25vw;
   font-weight: 600;
   line-height: 1.563vw;
+  cursor: pointer;
 }

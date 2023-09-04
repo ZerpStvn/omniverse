@@ -70,6 +70,11 @@ p {
   font-weight: 500;
   line-height: 1.25vw;
 }
+.col-rectanlge img {
+  width: 31.797vw;
+  height: 30.469vw;
+}
+
 .third-col-wrap {
   height: 46.875vw;
   background: var(--main-color);
@@ -262,6 +267,7 @@ p {
   font-size: 1.25vw;
   font-weight: 600;
   line-height: 1.563vw;
+  cursor: pointer;
 }
 .fifth-col-container {
   background: #192835;

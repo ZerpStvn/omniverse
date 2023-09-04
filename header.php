@@ -29,7 +29,7 @@
                 <p>Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry.</p>
                 <button>Schedule a meeting</button>
             </section>
-            <div class="right-content">
+            <div data-aos="fade-left" class="right-content">
                 <img src="<?php echo get_template_directory_uri() . "/assets/images/retangle.svg" ?>" alt="rectangle">
             </div>
         </div>

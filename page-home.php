@@ -7,8 +7,8 @@
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
                 text of the printing and typesetting industry.</p>
         </section>
-        <div class="col-rectanlge">
-            <h1>sds</h1>
+        <div data-aos="fade-left" class="col-rectanlge">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="rectangle">
         </div>
     </div>
     <div class="main-padding third-col-wrap ">
