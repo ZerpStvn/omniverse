@@ -1,7 +1,7 @@
 <footer class="global-max_width footer-container">
     <ul id="footerlist" class="main-padding">
         <li>
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="">
+            <img id="mainlogo" src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="">
             <p>&#169; 2023 Omniverse Energy Management Inc., All rights Reserved</p>
             <div class="socials">
                 <a href="#" class="fa fa-facebook"></a>
@@ -44,7 +44,7 @@
 
                     </li>
                     <li>
-                       Our Company
+                        Our Company
                     </li>
                     <li>
                         Our Services

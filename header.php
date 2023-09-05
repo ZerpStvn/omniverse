@@ -5,34 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head() ?>
-    <title>Omnivers</title>
+    <title>
+        <?php echo get_the_title() ?>
+    </title>
+    <link rel="icon" href="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg"; ?>"
+        type="image/x-icon">
 </head>
-<header id="header" class="max_width">
-    <img id="bgwhirl" src="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg" ?>" alt="logo">
+<?php
+if (is_front_page()) {
+    $header_id = 'header';
+} else {
+    $header_id = 'header-col';
+}
+?>
+
+<header id="<?php echo esc_attr($header_id); ?>" class="max_width">
+    <?php
+    if (is_front_page()) {
+        ?>
+        <img id="bgwhirl" src="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg" ?>" alt="logo">
+        <?php
+    }
+    ?>
+
     <div class="hdr-wrap">
         <div class="hdr-Cntnr nav-padding">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="logo">
+            <a href="<?php echo get_home_url() ?>"> <img id="mainlogo"
+                    src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="logo"></a>
+
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
-                    <li><a href="">What is Meta</a></li>
+                    <li><a href="<?php echo get_home_url() . '/about' ?>">What is Meta</a></li>
                     <li><a href="">How it Works</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">ForWho</a></li>
                 </ul>
             </nav>
         </div>
-        <div id="btm-hdr" class="btm-padding">
-            <section data-aos="fade-right" class="left-content">
-                <h1>
-                    The most engaging way to train your employees
-                </h1>
-                <p>Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry.</p>
-                <button>Schedule a meeting</button>
-            </section>
-            <div data-aos="fade-left" class="right-content">
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/retangle.svg" ?>" alt="rectangle">
+        <?php
+        if (is_front_page()) {
+            ?>
+            <div id="btm-hdr" class="btm-padding">
+                <section data-aos="fade-right" class="left-content">
+                    <h1>
+                        Empowering Clean Energy Worldwide with Innovative Solutions.
+                    </h1>
+                    <p>Advancing Clean Energy: Our Vision, Your Power, A Sustainable Future.</p>
+                    <button>Schedule a meeting</button>
+                </section>
+                <div data-aos="fade-left" class="right-content">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/retangle.svg" ?>" alt="rectangle">
+                </div>
             </div>
-        </div>
+            <?php
+        }
+        ?>
     </div>
 </header>
 

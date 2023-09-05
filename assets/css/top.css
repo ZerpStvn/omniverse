@@ -27,6 +27,14 @@
   margin: auto;
   position: relative;
 }
+#header-col {
+  background-color: var(--main-color);
+  max-width: 2560px;
+  width: 100%;
+  height: 7.5vw;
+  margin: auto;
+  position: relative;
+}
 #bgwhirl {
   position: absolute;
   right: 0;
@@ -35,6 +43,10 @@
   object-fit: fill;
   filter: blur(40px);
   z-index: 0;
+}
+#mainlogo {
+  width: 11.445vw;
+  height: 4.375vw;
 }
 .hdr-wrap {
   position: absolute;
@@ -55,6 +67,7 @@
 .nav-wrap > li > a {
   text-decoration: none;
   color: white;
+  font-size: 0.938vw;
 }
 #btm-hdr {
   display: flex;

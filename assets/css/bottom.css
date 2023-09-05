@@ -26,12 +26,17 @@
   background: var(--main-color);
 }
 #footerlist {
-  border-top: 0.117vw solid white;
   list-style: none;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+#footerlist > li > section > h1 {
+  font-size: 1.094vw;
+}
+#footerlist > li {
+  font-size: 0.586vw;
 }
 #footerlist > li > p {
   margin-top: 0.781vw;

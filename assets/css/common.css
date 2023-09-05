@@ -312,6 +312,10 @@ p {
 .circularAvart {
   padding: 1.25vw;
 }
+.circularAvart img {
+  width: 4.805vw;
+  height: 4.805vw;
+}
 .corner-padding {
   padding: 1.25vw 1.25vw 1.25vw 0;
 }
@@ -393,5 +397,109 @@ p {
 .seventh-col-wrap {
   margin-top: 4.688vw;
   background: #d1d1d1;
-  height: 53.75vw;
+}
+.seventh-section {
+  display: flex;
+  justify-content: space-between;
+}
+.seventh-section > h1 {
+  color: var(--Omni-Dark);
+  font-family: var(--JakartaSans);
+  width: 29.492vw;
+  font-size: 3.125vw;
+  font-weight: 700;
+  line-height: 3.75vw;
+}
+.seventh-list {
+  margin-top: 5.938vw;
+}
+.seventh-section > p {
+  color: var(--Omni-Dark);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  width: 25.586vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+#seventh-listveiw {
+  list-style: none;
+  gap: 1.602vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#seventh-listveiw > li {
+  padding: 2.188vw 6.25vw;
+  border-radius: 0.313vw;
+  background: #fff;
+  width: 20.977vw;
+  height: 11.445vw;
+}
+.secenth-center > p {
+  margin-top: 0.625vw;
+  color: var(--Muted-Text);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+#seventh-listveiw > li .secenth-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-padding-nnth {
+  padding: 4.688vw 11.719vw 4.688vw 11.719vw;
+}
+.nnth-col-wrap > section h1 {
+  color: var(--Muted-Text);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+.nnth-col-wrap > section p:nth-child(2) {
+  color: var(--Omni-Dark, #12222f);
+  font-family: var(--JakartaSans);
+  font-size: 3.125vw;
+  font-weight: 700;
+  line-height: 3.75vw;
+}
+.nnth-col-wrap > section p:nth-child(3) {
+  margin-top: 2.5vw;
+  color: var(--Omni-Purple-2, #a14198);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+#nnth-listview {
+  list-style: none;
+  display: flex;
+}
+#nnth-listview {
+  margin-top: 2.5vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#nnth-listview > li {
+  width: 13.086vw;
+}
+.nnth-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nnth-center > p {
+  color: var(--Omni-Dark);
+  text-align: center;
+  font-family: var(--JakartaSans);
+  font-size: 0.938vw;
+  font-weight: 500;
+  line-height: 1.25vw;
 }

@@ -13,6 +13,7 @@ function add_theme()
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_style('top_css', OMNI_CSS . '/top.css');
     wp_enqueue_style('bottom_css', OMNI_CSS . '/bottom.css');
+    wp_enqueue_style('about_css', OMNI_CSS . '/about.css');
     wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css');
     wp_enqueue_script('aos_js', OMNI_JS . '/aos.js', NULL, 1.0, true);
     wp_enqueue_script('jquery_js', OMNI_JS . '/jquery.js', NULL, 1.0, true);
@@ -26,6 +27,7 @@ function add_pages()
         array(
             'post_title' => 'Home',
             'post_content' => 'Home page',
+            'post_excerpt' => 'Learn about our company and our mission to provide innovative solutions in clean energy. Discover our team and values at Company Name.',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
@@ -34,18 +36,38 @@ function add_pages()
         array(
             'post_title' => 'About',
             'post_content' => 'About page',
+            'post_excerpt' => 'Learn all about Metaverse discover our awesome products',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
             'post_name' => 'about'
         ),
         array(
-            'post_title' => 'Benifits',
-            'post_content' => 'Benefits page',
+            'post_title' => 'Services',
+            'post_content' => 'Sevice page',
+            'post_excerpt' => 'Explore our range of services, including renewable energy solutions, energy consulting, and sustainability assessments. Find out how we can help your business.',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
-            'post_name' => 'benefits'
+            'post_name' => 'service'
+        ),
+        array(
+            'post_title' => 'Contact',
+            'post_content' => 'Contact page',
+            'post_excerpt' => 'Getting to know us',
+            'post_status' => 'publish',
+            'post_author' => 1,
+            'post_type' => 'page',
+            'post_name' => 'contact'
+        ),
+        array(
+            'post_title' => 'Products',
+            'post_content' => 'Products page',
+            'post_excerpt' => 'Explore our product',
+            'post_status' => 'publish',
+            'post_author' => 1,
+            'post_type' => 'page',
+            'post_name' => 'products'
         ),
 
     );

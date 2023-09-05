@@ -1,11 +1,12 @@
 <?php get_header() ?>
-<main class=" global-max_width ">
+<main class=" global-max_width  ">
     <div class="second-col-wrap main-padding ">
         <section data-aos="fade-right" class="col-details">
-            <h1>Lorem Ipsum is simply dummy text of the </h1>
-            <p>The most engaging way to train your employees. Take the next step to your advantage</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
-                text of the printing and typesetting industry.</p>
+            <h1>Omniverse: Clean Energy for Sustainable Tomorrow.</h1>
+            <p>Welcome to Omniverse, where innovation meets sustainability in revolutionizing clean energy for a greener
+                world.</p>
+            <p>Omniverse Energy Management: A SEC-registered leader in clean energy, committed to sustainable solutions
+                with global patents and a mission for excellence.</p>
         </section>
         <div data-aos="fade-left" class="col-rectanlge">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="rectangle">
@@ -16,14 +17,13 @@
         <section data-aos="fade-right" class="third-col-details">
             <div class="third-col-section">
                 <h1>
-                    Lorem Ipsum is simply dummy text of the
+                    Onivers Project Background
                 </h1>
-                <p>The most engaging way to train your employees. Take the next step to your advantage The most engaging
-                    way
-                    to train your employees.</p>
+                <p>EER-SPG harnesses electromagnetic energy flux for clean, sustainable electricity, offering an
+                    eco-friendly alternative to fossil fuel-based power generation</p>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
-                text of the printing and typesetting industry.</p>
+            <p>EER-SPG revolutionizes energy generation, using electromagnetic energy flux to combat environmental
+                pollution and climate change, offering a green and sustainable power solution.</p>
         </section>
         <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
             title="YouTube video player" frameborder="0"
@@ -162,7 +162,87 @@
         </div>
     </div>
     <div class="main-padding seventh-col-wrap">
+        <section class="seventh-section">
+            <h1>Choose and edit an
+                Environment</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry.</p>
+        </section>
+        <div class="seventh-list">
+            <ul id="seventh-listveiw">
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
 
+            </ul>
+        </div>
+    </div>
+    <div class="main-padding-nnth nnth-col-wrap">
+        <section>
+            <h1>Lorem Ipsum</h1>
+            <p>How does VR compare to e-learning and classroom training programs?</p>
+            <p>Lorem Ipsum</p>
+        </section>
+        <ul id="nnth-listview">
+            <li>
+                <div class="nnth-center circularAvart">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <p>Lorem Ipsum is simply dummy text of the printing dummy text of the.</p>
+                </div>
+            </li>
+            <li>
+                <div class="nnth-center  circularAvart">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <p>Lorem Ipsum is simply dummy text of the printing dummy text of the.</p>
+                </div>
+            </li>
+            <li>
+                <div class="nnth-center  circularAvart">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <p>Lorem Ipsum is simply dummy text of the printing dummy text of the.</p>
+                </div>
+            </li>
+            <li>
+                <div class="nnth-center  circularAvart">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <p>Lorem Ipsum is simply dummy text of the printing dummy text of the.</p>
+                </div>
+            </li>
+            <li>
+                <div class="nnth-center  circularAvart">
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <p>Lorem Ipsum is simply dummy text of the printing dummy text of the.</p>
+                </div>
+            </li>
+
+        </ul>
     </div>
 </main>
 <?php get_footer() ?>

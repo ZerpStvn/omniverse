@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "JakartaSans";
+  src: url("../fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --main-color: #12222f;
+  --secondary-color: #a14198;
+  --Omni-Yellow: #feba16;
+  --white: #fff;
+  --Muted-Text: #838383;
+  --Omni-Dark: #12222f;
+  --Inter: "Inter";
+  --JakartaSans: "JakartaSans";
+}
+.about-us-col {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-col > section {
+  width: 31.797vw;
+  height: 29.727vw;
+  gap: 1.875vw;
+}
+.about-us-col > section > h1 {
+  color: var(--Omni-Yellow);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+.about-us-col > section > p:nth-child(2) {
+  color: var(--Omni-Dark);
+  margin-top: 16px;
+  font-family: var(--Inter);
+  font-size: 2.188vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+}
+.about-us-col > section > p:nth-child(3) {
+  color: #838383;
+  margin-top: 1.875vw;
+  font-family: var(--JakartaSans);
+  font-size: 0.938vw;
+  font-weight: 500;
+  line-height: 1.25vw;
+}
+.about-us-col section > button {
+  margin-top: 1.875vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.016vw;
+  border: none;
+  border-radius: 0.313vw;
+  padding: 0.625vw 1.25vw 0.625vw 1.25vw;
+  background: radial-gradient(
+      60.19% 121.58% at 30.25% 20.32%,
+      rgba(200, 45, 150, 0.35) 2.08%,
+      rgba(198, 19, 162, 0.35) 30.73%,
+      rgba(181, 80, 248, 0.71) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: #fff;
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+  cursor: pointer;
+}
+.second-col-wrap {
+  margin-top: 4.688vw;
+}
+#second-col-tittle {
+  width: 29.492vw;
+  color: var(--Omni-Dark);
+  font-family: var(--JakartaSans);
+  font-size: 3.125vw;
+  font-weight: 700;
+  line-height: 3.75vw;
+}
+.second-col-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5vw;
+}
+
+.second-left-corner > ul {
+  list-style: none;
+  text-decoration: none;
+}
+.second-left-corner > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 1.406vw;
+  margin-top: 1.25vw;
+  border-radius: 0.313vw;
+}
+.selected {
+  background: rgba(255, 107, 202, 0.13);
+}
