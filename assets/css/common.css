@@ -503,3 +503,13 @@ p {
   font-weight: 500;
   line-height: 1.25vw;
 }
+.eight-col-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+#eight-list-view {
+  list-style: none;
+}
+#eight-list-view > li > img {
+  width: 123px;
+}

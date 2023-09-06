@@ -35,10 +35,10 @@ if (is_front_page()) {
 
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
-                    <li><a href="<?php echo get_home_url() . '/about' ?>">What is Meta</a></li>
-                    <li><a href="">How it Works</a></li>
+                    <li><a href="<?php echo get_home_url() . '/about' ?>">Our Company</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Product</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="">ForWho</a></li>
                 </ul>
             </nav>
         </div>
