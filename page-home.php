@@ -227,6 +227,30 @@
                         <p>Lorem Ipsum is simply dummy text of the printing dummy text of the</p>
                     </section>
                 </li>
+                <li>
+                    <img id="eight-circularAvatar"
+                        src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <section class="eight-list-section ">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing dummy text of the</p>
+                    </section>
+                </li>
+                <li>
+                    <img id="eight-circularAvatar"
+                        src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <section class="eight-list-section ">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing dummy text of the</p>
+                    </section>
+                </li>
+                <li>
+                    <img id="eight-circularAvatar"
+                        src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>" alt="">
+                    <section class="eight-list-section ">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing dummy text of the</p>
+                    </section>
+                </li>
             </ul>
         </div>
     </div>

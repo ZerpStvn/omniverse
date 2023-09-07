@@ -15,6 +15,7 @@
 :root {
   --main-color: #12222f;
   --secondary-color: #a14198;
+  --Omni-Purple-2: #a14198;
   --Omni-Yellow: #feba16;
   --white: #fff;
   --Muted-Text: #838383;
@@ -510,6 +511,47 @@ p {
 #eight-list-view {
   list-style: none;
 }
+.eight-col-wrap > section h1 {
+  color: var(--Muted-Text);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+.eight-col-wrap > section p {
+  margin-top: 16px;
+  color: var(--Omni-Dark);
+  font-family: var(--Inter);
+  font-size: 2.188vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+}
+#eight-list-view > li {
+  margin-top: 3.125vw;
+  display: flex;
+  align-items: center;
+  gap: 1.406vw;
+  border-radius: 0.313vw;
+  padding: 1.25vw;
+}
 #eight-list-view > li > img {
-  width: 123px;
+  width: 4.805vw;
+  height: 4.805vw;
+}
+#eight-list-view > li > section > h1 {
+  color: var(--Omni-Purple-2);
+
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+#eight-list-view > li > section > p {
+  margin-top: 16px;
+  color: var(--Omni-Dark);
+  font-family: var(--JakartaSans);
+  font-size: 0.938vw;
+  font-weight: 500;
+  line-height: 1.25vw;
+  width: 20.117vw;
 }
