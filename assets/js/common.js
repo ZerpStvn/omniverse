@@ -25,4 +25,12 @@ $(document).ready(function () {
 
     $("#content-placeholder").text(content);
   });
+  $("#myModal").modal({
+    backdrop: "static",
+    keyboard: false,
+    show: false,
+  });
+  $("#btn_scheduler").click(function () {
+    $("#myModal").modal("show");
+  });
 });

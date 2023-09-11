@@ -2,7 +2,7 @@
 
 <main class="global-max_width ">
     <div class="about-us-col main-padding">
-        <section>
+        <section data-aos="fade-right">
             <h1>ABOUT US</h1>
             <p>Trusted Clean Energy Partner in Philippines</p>
             <p>Omniverse Energy Management Inc. - Your SEC-registered, trusted partner, committed to delivering
@@ -11,12 +11,14 @@
                 allowing us to issue sublicenses for private and government sectors. Our dynamic, experienced team,
                 bolstered by reputable legal and accounting firms, ensures seamless operations. Guided by core values of
                 customer centricity, integrity, and environmental sustainability, we shape a greener future for our
-                clients, partners, and the world.</p>
+                clients, partners, and the world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quasi
+                recusandae corrupti earum perspiciatis incidunt eligendi praesentium nostrum totam, quae at consequatur
+                optio nemo sapiente iusto labore illum ab eveniet. lor</p>
 
             <Button>Schedule a Meeting</Button>
         </section>
-        <div class="col-rectanlge">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="">
+        <div data-aos="fade-left" class="col-rectanlge">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
         </div>
     </div>
     <div class="second-second-col main-padding ">
@@ -61,6 +63,44 @@
 
             </div>
         </div>
+    </div>
+    <div class="third-about-us-col main-padding">
+
+        <div data-aos="fade-right" class="col-rectanlge">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
+        </div>
+        <section data-aos="fade-left">
+            <h1>ABOUT US</h1>
+            <p>Trusted Clean Energy Partner in Philippines</p>
+            <p>Omniverse Energy Management Inc. - Your SEC-registered, trusted partner, committed to delivering
+                innovative, sustainable solutions powered by the patented Electromagnetic Energyflux Reactor (EER)
+                Stationary Power Generation (SPG) System. We hold the exclusive license from GEM Investment Corp.,
+                allowing us to issue sublicenses for private and government sectors. Our dynamic, experienced team,
+                bolstered by reputable legal and accounting firms, ensures seamless operations. Guided by core values of
+                customer centricity, integrity, and environmental sustainability, we shape a greener future for our
+                clients, partners, and the world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quasi
+                recusandae corrupti earum perspiciatis incidunt eligendi praesentium nostrum totam, quae at consequatur
+                optio nemo sapiente iusto labore illum ab eveniet. lor</p>
+        </section>
+    </div>
+    <div class="third-about-us-col main-padding">
+
+        <div data-aos="fade-right" class="col-rectanlge">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
+        </div>
+        <section data-aos="fade-left">
+            <h1>ABOUT US</h1>
+            <p>Trusted Clean Energy Partner in Philippines</p>
+            <p>Omniverse Energy Management Inc. - Your SEC-registered, trusted partner, committed to delivering
+                innovative, sustainable solutions powered by the patented Electromagnetic Energyflux Reactor (EER)
+                Stationary Power Generation (SPG) System. We hold the exclusive license from GEM Investment Corp.,
+                allowing us to issue sublicenses for private and government sectors. Our dynamic, experienced team,
+                bolstered by reputable legal and accounting firms, ensures seamless operations. Guided by core values of
+                customer centricity, integrity, and environmental sustainability, we shape a greener future for our
+                clients, partners, and the world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quasi
+                recusandae corrupti earum perspiciatis incidunt eligendi praesentium nostrum totam, quae at consequatur
+                optio nemo sapiente iusto labore illum ab eveniet. lor</p>
+        </section>
     </div>
 </main>
 <?php get_footer() ?>

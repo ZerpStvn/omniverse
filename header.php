@@ -20,6 +20,7 @@ if (is_front_page()) {
 ?>
 
 <header id="<?php echo esc_attr($header_id); ?>" class="max_width">
+    <!-- <div class="modalscheduler"></div> -->
     <?php
     if (is_front_page()) {
         ?>
@@ -36,9 +37,9 @@ if (is_front_page()) {
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
                     <li><a href="<?php echo get_home_url() . '/about' ?>">Our Company</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="<?php echo get_home_url() . '/team' ?>">Our Team</a></li>
+                    <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
+                    <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,8 +52,9 @@ if (is_front_page()) {
                         Empowering Clean Energy Worldwide with Innovative Solutions.
                     </h1>
                     <p>Advancing Clean Energy: Our Vision, Your Power, A Sustainable Future.</p>
-                    <button>Schedule a meeting</button>
+                    <button id="btn_scheduler">Schedule a meeting</button>
                 </section>
+
                 <div data-aos="fade-left" class="right-content">
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/retangle.svg" ?>" alt="rectangle">
                 </div>

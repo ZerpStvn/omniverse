@@ -159,10 +159,44 @@ p {
   line-height: 1.563vw;
 }
 .service-container .services-content-container > p {
+  width: 23.211vw;
+  margin-top: 0.391vw;
   color: var(--Omni-Dark);
   font-size: 2.188vw;
   font-weight: 700;
   line-height: 2.5vw;
+}
+.excerpt-container {
+  margin-top: 1.875vw;
+  max-height: 240.006px;
+  width: 23.211vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-content-container > a {
+  text-decoration: none;
+  width: 12.305vw;
+  margin-top: 1.875vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: none;
+  border-radius: 0.313vw;
+  padding: 0.625vw 1.25vw 0.625vw 1.25vw;
+  background: radial-gradient(
+      60.19% 121.58% at 30.25% 20.32%,
+      rgba(200, 45, 150, 0.35) 2.08%,
+      rgba(198, 19, 162, 0.35) 30.73%,
+      rgba(181, 80, 248, 0.71) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: #fff;
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+  cursor: pointer;
 }
 .services-content-container {
   width: 29.492vw;
@@ -172,11 +206,9 @@ p {
 p {
   font-family: var(--Inter);
 }
-.services-content-wrap {
-  margin-top: 1.875vw;
-}
-.services-content-wrap > li {
-  list-style: inside;
+
+.excerpt-container > p {
+  text-align: justify;
   color: var(--Muted-Text);
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
@@ -200,6 +232,7 @@ p {
 .list-service-holder {
   width: 37.539vw;
   height: 25.156vw;
+  object-fit: cover;
   flex-shrink: 0;
   border-radius: 8px;
   background: #423a41;

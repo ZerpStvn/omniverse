@@ -39,62 +39,55 @@
                 way
                 to train your employees.</p>
         </section>
-        <div class="serviceswrap">
-            <ul class="service-container">
-                <li>
-                    <section data-aos="fade-right" class="services-content-container">
-                        <h1>1</h1>
-                        <p>Choose and edit an Environment</p>
-                        <ul class="services-content-wrap">
-                            <li>Lorem Ipsum is simply dummy</li>
-                            <li>Lorem Ipsum is simply dummy</li>
-                        </ul>
-                    </section>
-                    <div data-aos="fade-left" class="list-container-holder">
-                        <div class="list-service-holder"></div>
-                    </div>
-                </li>
-                <li>
-                    <section data-aos="fade-right" class="services-content-container">
-                        <h1>1</h1>
-                        <p>Choose and edit an Environment</p>
-                        <ul class="services-content-wrap">
-                            <li>Lorem Ipsum is simply dummy</li>
-                            <li>Lorem Ipsum is simply dummy</li>
-                        </ul>
-                    </section>
-                    <div data-aos="fade-left" class="list-container-holder">
-                        <div class="list-service-holder"></div>
-                    </div>
-                </li>
-                <li>
-                    <section data-aos="fade-right" class="services-content-container">
-                        <h1>1</h1>
-                        <p>Choose and edit an Environment</p>
-                        <ul class="services-content-wrap">
-                            <li>Lorem Ipsum is simply dummy</li>
-                            <li>Lorem Ipsum is simply dummy</li>
-                        </ul>
-                    </section>
-                    <div data-aos="fade-left" class="list-container-holder">
-                        <div class="list-service-holder"></div>
-                    </div>
-                </li>
-                <li>
-                    <section data-aos="fade-right" class="services-content-container">
-                        <h1>1</h1>
-                        <p>Choose and edit an Environment</p>
-                        <ul class="services-content-wrap">
-                            <li>Lorem Ipsum is simply dummy</li>
-                            <li>Lorem Ipsum is simply dummy</li>
-                        </ul>
-                    </section>
-                    <div data-aos="fade-left" class="list-container-holder">
-                        <div class="list-service-holder"></div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <?php
+        $contentview = array('post_type' => 'content', 'posts_per_page' => -1);
+
+        $contentquery = new WP_Query($contentview);
+
+        if ($contentquery->have_posts()):
+            ?>
+            <div class="serviceswrap">
+                <ul class="service-container">
+                    <?php while ($contentquery->have_posts()):
+                        $contentquery->the_post(); ?>
+                        <li>
+                            <section data-aos="fade-right" class="services-content-container">
+                                <h1>
+                                    content
+                                </h1>
+                                <p>
+                                    <?php echo the_title(); ?>
+
+                                </p>
+                                <div class="excerpt-container">
+                                    <p>
+                                        <?php
+                                        $custom_excerpt = get_the_excerpt();
+
+                                        $custom_excerpt = wp_trim_words($custom_excerpt, 70, '');
+
+                                        if (strlen($custom_excerpt) < strlen(get_the_excerpt())) {
+                                            $custom_excerpt .= '...';
+                                        }
+
+                                        echo $custom_excerpt;
+                                        ?>
+                                    </p>
+                                </div>
+                                <a href="<?php echo the_permalink(); ?>" class="read-more">Learn More</a>
+                            </section>
+                            <div data-aos="fade-left" class="list-container-holder">
+                                <img class="list-service-holder" src=" <?php echo get_the_post_thumbnail_url(); ?>"
+                                    alt="thumbnail"></img>
+                            </div>
+                        </li>
+                    <?php endwhile;
+                    wp_reset_postdata();
+                    ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+
     </div>
     <div class="main-padding fifth-col-wrap">
         <div class="fifth-col-container"></div>

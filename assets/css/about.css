@@ -48,6 +48,7 @@
 }
 .about-us-col > section > p:nth-child(3) {
   color: #838383;
+  text-align: justify;
   margin-top: 1.875vw;
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
@@ -64,12 +65,11 @@
   border-radius: 0.313vw;
   padding: 0.625vw 1.25vw 0.625vw 1.25vw;
   background: radial-gradient(
-      60.19% 121.58% at 30.25% 20.32%,
-      rgba(200, 45, 150, 0.35) 2.08%,
-      rgba(198, 19, 162, 0.35) 30.73%,
-      rgba(181, 80, 248, 0.71) 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    60.19% 121.58% at 30.25% 20.32%,
+    rgba(200, 45, 150, 0.35) 2.08%,
+    rgba(198, 19, 162, 0.35) 30.73%,
+    rgba(181, 80, 248, 0.71) 100%
+  );
   color: #fff;
   font-family: var(--Inter);
   font-size: 1.25vw;
@@ -94,7 +94,12 @@
   justify-content: space-between;
   margin-top: 2.5vw;
 }
-
+.col-rectanlge > img {
+  width: 21.641vw;
+  height: 25.057vw;
+  border-radius: 10px;
+  object-fit: cover;
+}
 .second-left-corner > ul {
   list-style: none;
   text-decoration: none;
@@ -108,4 +113,38 @@
 }
 .selected {
   background: rgba(255, 107, 202, 0.13);
+}
+.third-about-us-col {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.third-about-us-col > section {
+  width: 31.797vw;
+  height: 29.727vw;
+  gap: 1.875vw;
+}
+.third-about-us-col > section > h1 {
+  color: var(--Omni-Yellow);
+  font-family: var(--Inter);
+  font-size: 1.25vw;
+  font-weight: 600;
+  line-height: 1.563vw;
+}
+.third-about-us-col > section > p:nth-child(2) {
+  color: var(--Omni-Dark);
+  margin-top: 16px;
+  font-family: var(--Inter);
+  font-size: 2.188vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+}
+.third-about-us-col > section > p:nth-child(3) {
+  color: #838383;
+  text-align: justify;
+  margin-top: 1.875vw;
+  font-family: var(--JakartaSans);
+  font-size: 0.938vw;
+  font-weight: 500;
+  line-height: 1.25vw;
 }
