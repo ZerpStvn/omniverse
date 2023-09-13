@@ -2,11 +2,11 @@
 <main class=" global-max_width  ">
     <div class="second-col-wrap main-padding ">
         <section data-aos="fade-right" class="col-details">
-            <h1>Omniverse: Clean Energy for Sustainable Tomorrow.</h1>
-            <p>Welcome to Omniverse, where innovation meets sustainability in revolutionizing clean energy for a greener
-                world.</p>
+            <h1>Check our Product</h1>
+            <p>Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)</p>
             <p>Omniverse Energy Management: A SEC-registered leader in clean energy, committed to sustainable solutions
                 with global patents and a mission for excellence.</p>
+            <a href="<?php echo get_home_url() . "/products" ?>" class="product-read-more">Learn More</a>
         </section>
         <div data-aos="fade-left" class="col-rectanlge">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="rectangle">
@@ -17,13 +17,14 @@
         <section data-aos="fade-right" class="third-col-details">
             <div class="third-col-section">
                 <h1>
-                    Onivers Project Background
+                    Omniverse Project Background
                 </h1>
                 <p>EER-SPG harnesses electromagnetic energy flux for clean, sustainable electricity, offering an
                     eco-friendly alternative to fossil fuel-based power generation</p>
             </div>
             <p>EER-SPG revolutionizes energy generation, using electromagnetic energy flux to combat environmental
                 pollution and climate change, offering a green and sustainable power solution.</p>
+
         </section>
         <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
             title="YouTube video player" frameborder="0"

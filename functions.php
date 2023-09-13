@@ -19,9 +19,11 @@ function add_theme()
     wp_enqueue_style('contact_css', OMNI_CSS . '/contact.css');
     wp_enqueue_style('about_css', OMNI_CSS . '/about.css');
     wp_enqueue_style('aos_css', OMNI_CSS . '/aos.css');
+    wp_enqueue_style('slick_css', OMNI_CSS . '/slick.css');
     wp_enqueue_script('aos_js', OMNI_JS . '/aos.js', NULL, 1.0, true);
     wp_enqueue_script('jquery_js', OMNI_JS . '/jquery.js', NULL, 1.0, true);
     wp_enqueue_script('common_js', OMNI_JS . '/common.js', NULL, array('jquery'), 1.0, true);
+    wp_enqueue_script('slick_js', OMNI_JS . '/slick.js', NULL, 1.0, true);
 }
 
 add_action('init', 'add_pages');
@@ -67,7 +69,7 @@ function add_pages()
         array(
             'post_title' => 'Products',
             'post_content' => 'Products page',
-            'post_excerpt' => 'Explore our product',
+            'post_excerpt' => 'Explore our product Electromagnetic energy flux Reactor (EER) Stationary Power Generation (SPG)',
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',

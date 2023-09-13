@@ -36,7 +36,7 @@ if (is_front_page()) {
 
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
-                    <li><a href="<?php echo get_home_url() . '/about' ?>">Our Company</a></li>
+                    <li><a href="<?php echo get_home_url() . '/about' ?>">About Us</a></li>
                     <li><a href="<?php echo get_home_url() . '/team' ?>">Our Team</a></li>
                     <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
                     <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
@@ -52,7 +52,7 @@ if (is_front_page()) {
                         Empowering Clean Energy Worldwide with Innovative Solutions.
                     </h1>
                     <p>Advancing Clean Energy: Our Vision, Your Power, A Sustainable Future.</p>
-                    <button id="btn_scheduler">Schedule a meeting</button>
+                    <button id="btn_scheduler">Send us a message</button>
                 </section>
 
                 <div data-aos="fade-left" class="right-content">
