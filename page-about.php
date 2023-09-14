@@ -2,7 +2,7 @@
 
 <main class="global-max_width ">
     <div class="about-us-col main-padding">
-        <section>
+        <!-- <section>
             <h1>KNOW ABOUT US</h1>
             <p>Omniverse Energy Management Inc.</p>
         </section>
@@ -22,8 +22,9 @@
                 ensure the smooth operation of the company. We are guided by our Core Values of customer centricity,
                 integrity, and sustainability, which define our business approach and shape our interactions with
                 clients, partners, and the environment.</p>
-        </section>
-        <!-- <section data-aos="fade-right">
+        </section> -->
+
+        <section data-aos="fade-right">
             <h1>ABOUT US</h1>
             <p>Omniverse Energy Management Inc.</p>
             <p>We are a trusted.. energy management partner in the clean energy industry.
@@ -47,15 +48,24 @@
         </section>
         <div data-aos="fade-left" class="col-rectanlge">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
-        </div> -->
+        </div>
     </div>
+    <!-- <div class="highlight">
 
-    <div class="third-about-us-col main-padding">
+        <iframe class="videohighlight" src="https://www.youtube.com/embed/jJQ5NwwVeF4?si=CBGTU6fc3Yp_RR_e"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <div class="highlight-container">
+
+        </div>
+    </div> -->
+    <div class="third-about-us-col third-bg main-padding">
 
         <div data-aos="fade-right" class="col-rectanlge">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
         </div>
-        <section data-aos="fade-left">
+        <section id="thid-bg-hg" data-aos="fade-left">
             <h1>Company Summary</h1>
             <p>Trusted Clean Energy Partner in Philippines</p>
             <p>Omniverse is à holder of license from GEM which is the Philippine Company of the inventor. As holder of

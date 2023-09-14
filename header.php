@@ -36,8 +36,8 @@ if (is_front_page()) {
 
             <nav id="nav-cnt">
                 <ul class="nav-wrap">
-                    <li><a href="<?php echo get_home_url() . '/about' ?>">About Us</a></li>
-                    <li><a href="<?php echo get_home_url() . '/team' ?>">Our Team</a></li>
+                    <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
+                    <li><a href="<?php echo get_home_url() . '/teams' ?>">Our Team</a></li>
                     <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
                     <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
                 </ul>

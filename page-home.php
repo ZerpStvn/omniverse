@@ -34,11 +34,10 @@
     <div id="services" class="main-padding fouth-col-wrap">
         <section data-aos="fade-right" class="fouth-col-details">
             <h1>
-                Lorem Ipsum is simply dummy text of the
+                News and updates
             </h1>
-            <p>The most engaging way to train your employees. Take the next step to your advantage The most engaging
-                way
-                to train your employees.</p>
+            <p>Welcome to OmniVerse, your gateway to explore OmniVerse's projects, upcoming events, and future
+                updates</p>
         </section>
         <?php
         $contentview = array('post_type' => 'content', 'posts_per_page' => -1);
@@ -91,7 +90,10 @@
 
     </div>
     <div class="main-padding fifth-col-wrap">
-        <div class="fifth-col-container"></div>
+        <iframe class="fifth-col-container" src="https://www.youtube.com/embed/aYBGSfzaa4c?si=1VJsNlALKUjOhcLi"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         <img id="bgwhirl" src="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg" ?>" alt="logo">
         <section data-aos="fade-right" class=" fifth-details-wrap">
             <h1>Lorem Ipsum</h1>
@@ -102,7 +104,7 @@
     </div>
     <div class="main-padding six-col-wrap">
         <p id="six-col-tittle">
-            Choose and edit an Environment
+            Omniverse - EER-SPG Features
         </p>
         <div class="six-col-container">
             <div class="six-left-corner">
@@ -140,17 +142,21 @@
                 </ul>
             </div>
             <div data-aos="fade-left" class="six-right-corner">
-                <div class="six-container-holder">
 
-                </div>
+                <iframe class="six-container-holder" width="560" height="315"
+                    src="https://www.youtube.com/embed/1kUE0BZtTRc?si=50qDARuX_iJLQZlb" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
                 <section>
-                    <h1>Lorem Ipsum</h1>
-                    <p>The most engaging way to train your employees</p>
+                    <h1>Product Highlights</h1>
+                    <p>EER-SPG Product impact Highlights</p>
                     <ul>
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <Button>Schedule a Meeting</Button>
+                    <a href="<?php echo get_home_url() . "/products" ?>">Learn more</a>
                 </section>
             </div>
         </div>
@@ -200,9 +206,28 @@
     </div>
     <div class="eight-col-wrap main-padding">
         <section class="eight-left-corner">
-            <h1>Lorem Ipsum</h1>
-            <p>The most engaging way to train your employees</p>
+            <h1>Omniverse</h1>
+            <p>EER-SPG Product impact Highlights</p>
+            <div data-aos="fade-left" class="six-right-corner" style="margin-top: 2.848vw;">
+
+                <iframe class="six-container-holder" width="560" height="315"
+                    src="https://www.youtube.com/embed/1kUE0BZtTRc?si=50qDARuX_iJLQZlb" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+                <section>
+                    <h1>Lorem Ipsum</h1>
+                    <p>EER-SPG Product impact Highlights</p>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy</li>
+                        <li>Lorem Ipsum is simply dummy</li>
+                    </ul>
+                    <Button>Schedule a Meeting</Button>
+                </section>
+            </div>
         </section>
+
         <div class="eight-right-corner">
             <ul id="eight-list-view">
                 <li>
@@ -250,9 +275,9 @@
     </div>
     <div class="main-padding-nnth nnth-col-wrap">
         <section>
-            <h1>Lorem Ipsum</h1>
-            <p>How does VR compare to e-learning and classroom training programs?</p>
-            <p>Lorem Ipsum</p>
+            <h1>Omniverse</h1>
+            <p>Corporate Partners</p>
+            <p>Highlights</p>
         </section>
         <ul id="nnth-listview">
             <li>

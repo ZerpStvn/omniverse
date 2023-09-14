@@ -55,7 +55,7 @@ function add_pages()
             'post_status' => 'publish',
             'post_author' => 1,
             'post_type' => 'page',
-            'post_name' => 'team'
+            'post_name' => 'teams'
         ),
         array(
             'post_title' => 'Contact',
