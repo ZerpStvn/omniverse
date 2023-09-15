@@ -146,10 +146,11 @@ p {
   width: 32.031vw;
 }
 .third-card > section > a {
-  border: 2px solid var(--white);
+  border: 0.078vw solid var(--white);
   border-radius: 0.391vw;
   display: flex;
   align-items: center;
+  font-size: 1.938vw;
   justify-content: center;
   color: var(--white);
   width: 13.078vw;
