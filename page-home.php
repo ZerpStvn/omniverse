@@ -13,8 +13,25 @@
         </div>
     </div>
     <div class="main-padding third-col-wrap ">
-
-        <section data-aos="fade-right" class="third-col-details">
+        <div class="thirdevenContianer">
+            <div class="third-card product-card">
+                <section>
+                    <h1>PRODUCT</h1>
+                    <p>Stay up to date on the products, news and latest innovations from Premier Lift Group</p>
+                    <a href="<?php echo get_home_url() . "/products" ?>">EXPLORE</a>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/product.jpeg" ?>" alt="">
+                </section>
+            </div>
+            <div class="third-card aboutcard">
+                <section>
+                    <h1>About</h1>
+                    <p>Our company profile, regulation details, certifications and summary.</p>
+                    <a href="<?php echo get_home_url() . "/about" ?>">EXPLORE</a>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/abiut.jpg" ?>" alt="">
+                </section>
+            </div>
+        </div>
+        <!-- <section data-aos="fade-right" class="third-col-details">
             <div class="third-col-section">
                 <h1>
                     Omniverse Project Background
@@ -25,11 +42,11 @@
             <p>EER-SPG revolutionizes energy generation, using electromagnetic energy flux to combat environmental
                 pollution and climate change, offering a green and sustainable power solution.</p>
 
-        </section>
-        <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+            </section>
+            <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe> -->
     </div>
     <div id="services" class="main-padding fouth-col-wrap">
         <section data-aos="fade-right" class="fouth-col-details">
@@ -74,7 +91,7 @@
                                         ?>
                                     </p>
                                 </div>
-                                <a href="<?php echo the_permalink(); ?>" class="read-more">Learn More</a>
+                                <a href="" class="read-more">Learn More</a>
                             </section>
                             <div data-aos="fade-left" class="list-container-holder">
                                 <img class="list-service-holder" src=" <?php echo get_the_post_thumbnail_url(); ?>"
@@ -99,7 +116,7 @@
             <h1>Lorem Ipsum</h1>
             <p>The most engaging way to train your employees. Take the next step to your advantage</p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button>Schedule a meeting</button>
+            <button>Send us message</button>
         </section>
     </div>
     <div class="main-padding six-col-wrap">
@@ -223,7 +240,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <Button>Schedule a Meeting</Button>
+                    <Button>Send us message</Button>
                 </section>
             </div>
         </section>
