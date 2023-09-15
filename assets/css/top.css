@@ -76,6 +76,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: inherit;
 }
 #btm-hdr img {
   width: 31.797vw;
@@ -97,14 +98,13 @@ button {
   color: #fff;
   font-size: 3.125vw;
   font-weight: 700;
-  line-height: 3.75vw;
 }
 
 .left-content > p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.938vw;
   font-weight: 400;
-  line-height: 1.25vw;
+
   padding: 1.367vw 0 1.367vw 0;
 }
 .left-content > button {
@@ -127,6 +127,44 @@ button {
   color: #fff;
   font-size: 1.25vw;
   font-weight: 600;
-  line-height: 1.563vw;
+
   cursor: pointer;
+}
+@media (max-width: 788px) {
+  #mainlogo {
+    width: 27.445vw;
+    height: 10.375vw;
+  }
+  .nav-wrap {
+    display: none;
+  }
+  #header {
+    height: 51.281vw;
+  }
+  .right-content {
+    display: none;
+  }
+  #btm-hdr {
+    justify-content: center;
+  }
+  .left-content {
+    text-align: center;
+    width: 72.461vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-content > h1 {
+    font-size: 3.825vw;
+  }
+  .left-content > p {
+    font-size: 1.938vw;
+  }
+  .left-content > button {
+    margin-top: 1.781vw;
+    font-size: 1.938vw;
+    padding: 1.625vw 1.45vw;
+    border-radius: 0.391vw;
+  }
 }

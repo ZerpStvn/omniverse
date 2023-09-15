@@ -99,9 +99,7 @@
   line-height: 1.563vw;
   cursor: pointer;
 }
-.second-col-wrap {
-  margin-top: 4.688vw;
-}
+
 .second-second-col {
   background: var(--main-color);
 }
