@@ -33,15 +33,21 @@ if (is_front_page()) {
         <div class="hdr-Cntnr nav-padding">
             <a href="<?php echo get_home_url() ?>"> <img id="mainlogo"
                     src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="logo"></a>
-
+            
+            
             <nav id="nav-cnt">
+                
                 <ul class="nav-wrap">
                     <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
-                    <li><a href="<?php echo get_home_url() . '/teams' ?>">Our Team</a></li>
                     <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
                     <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
                 </ul>
             </nav>
+            <div class="open-close-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
         <?php
         if (is_front_page()) {

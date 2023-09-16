@@ -684,9 +684,7 @@ p {
   .col-details > p:nth-child(2) {
     font-size: 5.188vw;
   }
-  .col-rectanlge > img {
-    display: none;
-  }
+ 
   .col-details > p:nth-child(3) {
     text-align: justify;
     font-size: 2.938vw;
@@ -925,9 +923,7 @@ p {
   .col-details > p:nth-child(2) {
     font-size: 5.188vw;
   }
-  .col-rectanlge > img {
-    display: none;
-  }
+ 
   .col-details > p:nth-child(3) {
     text-align: justify;
     font-size: 2.938vw;

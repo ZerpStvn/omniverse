@@ -41,10 +41,10 @@
                     amet
                     quisquam libero aliquid ducimus tenetur distinctio! Alias, suscipit.</p>
 
-                <Button>Schedule a Meeting</Button>
+                    <a href="<?php echo get_home_url(  ). "/contact"?>">Send us message</a>
             </section>
-            <div data-aos="fade-left" class="col-rectanlge">
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/generator.jpg" ?>" alt="">
+            <div data-aos="fade-left" class="col-product-rectanlge">
+                <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
             </div>
         </div>
 
@@ -64,7 +64,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <Button>Schedule a Meeting</Button>
+                    <a href="<?php echo get_home_url(  ). "/contact"?>">Send us message</a>
                 </section>
             </div>
         </section>

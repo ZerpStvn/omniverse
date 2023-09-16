@@ -88,11 +88,25 @@
 }
 .socials > a {
   margin: 2.781vw 3.586vw 0 0;
-  text-decoration: none;
-  color: var(--white);
-  border: 1px solid white;
-  padding: 0.391vw;
-  border-radius: 0.313vw;
+ 
+  padding: 1.391vw;
   font-size: 3.781vw;
+}
+#footerlist > li > section > h1 {
+  font-size: 3.094vw;
+}
+#footerlist > li > section > ul > li{
+  font-size: 2vw;
+}
+.footer-contactdetails > p{
+  margin-top: 3vw;
+}
+.footer-contactdetails > p > i{
+  font-size: 3vw;
+
+}
+.footer-contactdetails > p > span{
+  margin-left: 2vw;
+  font-size: 2vw;
 }
 }
