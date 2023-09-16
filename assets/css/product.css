@@ -183,4 +183,11 @@
   border-radius: 10px;
   object-fit: cover;
 }
+.eight-col-wrap > section h1 {
+  font-size: 4.25vw;
+}
+.eight-col-wrap > section p {
+  margin-bottom: 16px;
+  font-size: 4.188vw;
+}
 }
