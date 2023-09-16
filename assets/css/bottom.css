@@ -45,7 +45,7 @@
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-  line-height: 1.25vw;
+
 }
 .socials > a {
   margin: 0.781vw 0.586vw 0 0;
@@ -74,4 +74,25 @@
 }
 .footer-contactdetails p > span {
   margin-left: 0.391vw;
+}
+@media (max-width: 788px) {
+  #footerlist {
+    flex-direction: column;
+    gap: 3vw  ;
+    align-items: start;
+  }
+  #footerlist > li > p {
+    margin-top: 3.781vw;
+    width: 60.961vw;
+    font-size: 3.938vw;
+}
+.socials > a {
+  margin: 2.781vw 3.586vw 0 0;
+  text-decoration: none;
+  color: var(--white);
+  border: 1px solid white;
+  padding: 0.391vw;
+  border-radius: 0.313vw;
+  font-size: 3.781vw;
+}
 }

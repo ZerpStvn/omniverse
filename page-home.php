@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="main-padding third-col-wrap ">
-        <div class="thirdevenContianer">
+        <!-- <div class="thirdevenContianer">
             <div class="third-card product-card">
                 <section>
                     <h1>PRODUCT</h1>
@@ -30,8 +30,8 @@
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/abiut.jpg" ?>" alt="">
                 </section>
             </div>
-        </div>
-        <!-- <section data-aos="fade-right" class="third-col-details">
+        </div> -->
+        <section data-aos="fade-right" class="third-col-details">
             <div class="third-col-section">
                 <h1>
                     Omniverse Project Background
@@ -46,7 +46,7 @@
             <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe> -->
+                allowfullscreen></iframe>
     </div>
     <div id="services" class="main-padding fouth-col-wrap">
         <section data-aos="fade-right" class="fouth-col-details">
@@ -188,34 +188,18 @@
         <div class="seventh-list">
             <ul id="seventh-listveiw">
                 <li>
-                    <div class="secenth-center circularAvart">
-                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
-                            alt="">
-                        <p>Lorem Ipsum</p>
-                    </div>
+                    <div class="classcardimage"></div>
                 </li>
                 <li>
-                    <div class="secenth-center circularAvart">
-                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
-                            alt="">
-                        <p>Lorem Ipsum</p>
-                    </div>
+                   <div class="classcardimage"></div>
                 </li>
                 </li>
                 <li>
-                    <div class="secenth-center circularAvart">
-                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
-                            alt="">
-                        <p>Lorem Ipsum</p>
-                    </div>
+                    <div class="classcardimage"></div>
                 </li>
                 </li>
                 <li>
-                    <div class="secenth-center circularAvart">
-                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
-                            alt="">
-                        <p>Lorem Ipsum</p>
-                    </div>
+                   <div class="classcardimage"></div>
                 </li>
 
             </ul>
@@ -240,7 +224,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <Button>Send us message</Button>
+                    <a href="<?php echo get_home_url( ) . "/about"?>">Send us message</a>
                 </section>
             </div>
         </section>

@@ -86,7 +86,7 @@
   padding: 1.711vw 11.719vw 3.75vw 11.719vw;
 }
 .left-content {
-  width: 22.461vw;
+  width: 25.461vw;
   height: 30.469vw;
 }
 /* fonts */
@@ -131,6 +131,7 @@ button {
   cursor: pointer;
 }
 @media (max-width: 788px) {
+  
   #mainlogo {
     width: 27.445vw;
     height: 10.375vw;
@@ -139,12 +140,15 @@ button {
     display: none;
   }
   #header {
-    height: 51.281vw;
+    height: 106.281vw;
   }
   .right-content {
     display: none;
   }
   #btm-hdr {
+    align-items: center;
+    justify-content: center;
+    margin-top: 11%;
     justify-content: center;
   }
   .left-content {
@@ -155,11 +159,13 @@ button {
     flex-direction: column;
     align-items: center;
   }
+  
   .left-content > h1 {
-    font-size: 3.825vw;
+    font-size: 6.825vw;
+    
   }
   .left-content > p {
-    font-size: 1.938vw;
+    font-size: 3.938vw;
   }
   .left-content > button {
     margin-top: 1.781vw;
@@ -167,4 +173,27 @@ button {
     padding: 1.625vw 1.45vw;
     border-radius: 0.391vw;
   }
+  .col-details > h1 {
+    font-size: 5.25vw;
+}
+
+}
+@media (max-width: 488px) {
+  
+  #header {
+    height: 128.281vw;
+}
+.left-content > h1 {
+  font-size: 7.825vw;
+}
+.left-content > p {
+  font-size: 5.938vw;
+}
+.left-content > button {
+  margin-top: 1.781vw;
+  font-size: 3.938vw;
+  padding: 3.625vw 11.45vw;
+  border-radius: 1.391vw;
+}
+
 }
