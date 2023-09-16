@@ -27,7 +27,7 @@
   justify-content: space-between;
 }
 .about-us-col > section {
-  width: 31.797vw;
+  width: 41.797vw;
   height: 29.727vw;
   gap: 1.875vw;
   height: inherit;
@@ -37,7 +37,6 @@
   font-family: var(--Inter);
   font-size: 1.25vw;
   font-weight: 600;
-  line-height: 1.563vw;
 }
 .about-us-col > section > p:nth-child(2) {
   color: var(--Omni-Dark);
@@ -45,7 +44,6 @@
   font-family: var(--Inter);
   font-size: 2.188vw;
   font-weight: 700;
-  line-height: 2.5vw;
 }
 .about-us-col > section > p:nth-child(3) {
   color: var(--Omni-Dark);
@@ -54,7 +52,6 @@
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-  line-height: 1.25vw;
 }
 .highlight {
   position: relative;
@@ -109,7 +106,6 @@
   font-family: var(--JakartaSans);
   font-size: 3.125vw;
   font-weight: 700;
-  line-height: 3.75vw;
 }
 .second-col-container {
   display: flex;
@@ -125,9 +121,71 @@
   object-fit: cover;
 }
 
+.about-intro > h1{
+  text-align: center;
+  color: var(--Omni-Dark);
+  margin-top: 16px;
+  font-family: var(--Inter);
+  font-size: 3.808vw;
+  font-weight: 700;
+}
+.about-team > ul > li > section > img{
+  width: 22vw;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.about-team > ul {
+  margin-top:5vw;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ gap: 5vw;
+}
+.about-team > ul > li > section>h1 {
+  color: var(--Omni-Dark);
+  margin-top: 16px;
+  font-family: var(--Inter);
+  font-size: 1.808vw;
+  font-weight: 700;
+}
+.about-team > ul > li > section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-team > ul > li > section > p {
+  color: var(--Omni-Dark);
+  text-align: justify;
+  margin-top: 0.875vw;
+  font-family: var(--JakartaSans);
+  font-size:0.875vw;
+  font-weight: 500;
+}
+.about-team > ul > li > section > p:nth-child(4) {
+  color: var(--Omni-Dark);
+  text-align: justify;
+  margin-top: 0.875vw;
+  font-family: var(--JakartaSans);
+  font-size: 1.108vw;
+  font-weight: 500;
+  text-align: center;
+}
+#team-socials > a{
+  border: 1 solid var(--main-color);
+  font-size: 2vw;
+  color: var(--main-color);
+  margin:2vw 0.923vw;
+
+}
 .second-left-corner > ul {
   list-style: none;
   text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .second-left-corner > ul > li {
   display: flex;
@@ -163,7 +221,6 @@
   font-family: var(--Inter);
   font-size: 1.25vw;
   font-weight: 600;
-  line-height: 1.563vw;
 }
 .third-about-us-col > section > p:nth-child(2) {
   color: var(--Omni-Dark);
@@ -171,7 +228,6 @@
   font-family: var(--Inter);
   font-size: 2.188vw;
   font-weight: 700;
-  line-height: 2.5vw;
 }
 .third-about-us-col > section > p:nth-child(3) {
   color: #838383;
@@ -180,7 +236,6 @@
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-  line-height: 1.25vw;
 }
 
 #content-placeholder {
@@ -212,7 +267,56 @@
   font-size: 3.25vw;
   text-align: center;
   font-weight: 600;
-  line-height: 1.563vw;
+  
 
   margin-bottom: 1.563vw;
+}
+@media (max-width: 788px) {
+  .about-us-col {
+    flex-direction: column-reverse;
+}
+.col-rectanlge > img {
+  width: 100%;
+}
+.about-us-col > section {
+  margin-top: 3vw;
+  width: 100%;
+}
+.about-us-col > section > h1 {
+  font-size: 2.25vw;
+}
+.about-us-col > section > p:nth-child(2) {
+  font-size: 4.188vw;
+}
+.about-us-col > section > p:nth-child(3) {
+  font-size: 2.238vw;
+}
+.about-us-col section > button {
+  padding: 2.625vw 3.25vw 2.625vw 3.25vw;
+  font-size: 2.45vw;
+}
+.about-team > ul {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-team > ul > li > section > img {
+  width: 43vw;
+  height: 50vw;
+}
+.about-team > ul > li > section>h1 {
+  font-size: 5.808vw;
+}
+.about-team > ul > li > section > p {
+  font-size: 4.875vw;
+}
+.about-team > ul > li > section > p:nth-child(4) {
+  font-size: 2.108vw;
+}
+#team-socials > a {
+  border: 1 solid var(--main-color);
+  font-size: 3vw;
+  color: var(--main-color);
+  margin: 2vw 0.923vw;
+}
 }

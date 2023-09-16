@@ -8,7 +8,7 @@
                 with global patents and a mission for excellence.</p>
             <a href="<?php echo get_home_url() . "/products" ?>" class="product-read-more">Learn More</a>
         </section>
-        <div data-aos="fade-left" class="col-rectanlge">
+        <div data-aos="fade-left" class="col-rectanlge home-rect">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="rectangle">
         </div>
     </div>

@@ -673,6 +673,9 @@ p {
     flex-direction: column;
     gap: 0;
   }
+  .home-rect{
+    display: none;
+  }
   .col-details {
     text-align: center;
     display: flex;

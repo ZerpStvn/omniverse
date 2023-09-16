@@ -81,6 +81,9 @@
     gap: 3vw  ;
     align-items: start;
   }
+  #footerlist > li {
+    margin-top: 2vw;
+}
   #footerlist > li > p {
     margin-top: 3.781vw;
     width: 60.961vw;

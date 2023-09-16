@@ -50,6 +50,133 @@
             <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
         </div>
     </div>
-   
+    <div class="about-team main-padding">
+        <section class="about-intro">
+            <h1>Meet our Team</h1>
+        </section>
+        <ul>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Rommel R. Acejo</h1>
+                    <p>Chairman/CEO</p>
+                    <p> +63 0916 215 4768 <br /> ceo@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Jose Ariel D. Castañeda</h1>
+                    <p>VP for Sales and Marketing</p>
+                    <p> 0928 550 1518 <br /> vpsm@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Junel Ann P. Divinagracia</h1>
+                    <p>Chief Admin Officer</p>
+                    <p> 0928 504 7330 <br /> ct@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Geraldine P. Nebit</h1>
+                    <p>Corporate Treasurer</p>
+                    <p> 0928 504 7330 <br />ct@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Rizal Jess G. Nebit</h1>
+                    <p>Chief Sales and Marketing Officer</p>
+                    <p> 0917 305 8999 <br />csmo@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Engr. Ronil B. Ubierna</h1>
+                    <p>Chief Technical Officer</p>
+                    <p> 0930 299 5844 <br />cto@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Engr. Andy R. Abiera</h1>
+                    <p>Technical Audit Officer</p>
+                    <p> 0997 552 9909 <br />tao@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/profile.jpg" ?>" alt="">
+                    <h1>Atty. Juanito Balasote III</h1>
+                    <p>Chief Compliance Officer</p>
+                    <p> 0927 886 5599 <br />cco@omniverse.com.ph </p>
+                    <div id="team-socials">
+
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+
+                    </div>
+                </section>
+            </li>
+           
+        </ul>
+    </div>
 </main>
 <?php get_footer() ?>
