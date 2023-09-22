@@ -44,7 +44,7 @@
                 clients, partners, and the environment.</p>
 
 
-            <Button>Schedule a Meeting</Button>
+            <a href="<?php echo get_home_url() . "/contact" ?>">Schedule a Meeting</a>
         </section>
         <div data-aos="fade-left" class="col-rectanlge">
             <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
@@ -175,7 +175,7 @@
                     </div>
                 </section>
             </li>
-           
+
         </ul>
     </div>
 </main>

@@ -3,7 +3,7 @@ $(document).ready(function () {
     duration: 800,
     easing: "ease",
     offset: 200,
-    once: false,
+    once: true,
   });
 
   $("#content-placeholder").text(
@@ -37,14 +37,12 @@ $(document).ready(function () {
     $("#core-title").text(tittlecontent);
     $("#content-placeholder").text(content);
   });
-  $("#myModal").modal({
-    backdrop: "static",
-    keyboard: false,
-    show: false,
+
+  $(".open-close-icon").click(function () {
+    $(this).toggleClass("menuopen");
+    $(".menurwap").toggleClass("menuopen");
   });
-  $("#btn_scheduler").click(function () {
-    $("#myModal").modal("show");
-  });
+
   $(".sliderwrap").slick({
     dots: false,
     infinite: true,

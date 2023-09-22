@@ -1,5 +1,8 @@
 <?php get_header() ?>
 <main class=" global-max_width  ">
+    <div class="menurwap">
+
+    </div>
     <div class="second-col-wrap main-padding ">
         <section data-aos="fade-right" class="col-details">
             <h1>Check our Product</h1>
@@ -42,11 +45,11 @@
             <p>EER-SPG revolutionizes energy generation, using electromagnetic energy flux to combat environmental
                 pollution and climate change, offering a green and sustainable power solution.</p>
 
-            </section>
-            <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+        </section>
+        <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
     </div>
     <div id="services" class="main-padding fouth-col-wrap">
         <section data-aos="fade-right" class="fouth-col-details">
@@ -191,7 +194,7 @@
                     <div class="classcardimage"></div>
                 </li>
                 <li>
-                   <div class="classcardimage"></div>
+                    <div class="classcardimage"></div>
                 </li>
                 </li>
                 <li>
@@ -199,7 +202,7 @@
                 </li>
                 </li>
                 <li>
-                   <div class="classcardimage"></div>
+                    <div class="classcardimage"></div>
                 </li>
 
             </ul>
@@ -224,7 +227,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <a href="<?php echo get_home_url( ) . "/about"?>">Send us message</a>
+                    <a href="<?php echo get_home_url() . "/about" ?>">Send us message</a>
                 </section>
             </div>
         </section>

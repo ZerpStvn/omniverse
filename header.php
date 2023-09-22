@@ -33,21 +33,22 @@ if (is_front_page()) {
         <div class="hdr-Cntnr nav-padding">
             <a href="<?php echo get_home_url() ?>"> <img id="mainlogo"
                     src="<?php echo get_template_directory_uri() . "/assets/images/logo.svg" ?>" alt="logo"></a>
-            
-            
+
+
             <nav id="nav-cnt">
-                
+
                 <ul class="nav-wrap">
                     <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
                     <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
                     <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
                 </ul>
             </nav>
-            <div class="open-close-icon">
+
+            <a class="open-close-icon">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </a>
         </div>
         <?php
         if (is_front_page()) {
@@ -58,7 +59,7 @@ if (is_front_page()) {
                         Empowering Clean Energy Worldwide with Innovative Solutions.
                     </h1>
                     <p>Advancing Clean Energy: Our Vision, Your Power, A Sustainable Future.</p>
-                    <button id="btn_scheduler">Send us a message</button>
+                    <a href="<?php echo get_home_url() . "/contact" ?>" id="btn_scheduler">Send us a message</a>
                 </section>
 
                 <div data-aos="fade-left" class="right-content">

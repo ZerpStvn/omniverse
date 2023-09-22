@@ -44,7 +44,7 @@
   filter: blur(40px);
   z-index: 0;
 }
-.open-close-icon{
+.open-close-icon {
   display: none;
 }
 #mainlogo {
@@ -60,17 +60,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.open-close-icon > span {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10px;
-  background-color: white;
-  width: 2px;
-  transform: rotate(90deg);
-  
 }
 
 .nav-wrap {
@@ -106,7 +95,7 @@
 }
 /* fonts */
 .left-content p,
-button {
+a {
   font-family: "Inter";
 }
 .left-content > h1 {
@@ -122,7 +111,7 @@ button {
 
   padding: 1.367vw 0 1.367vw 0;
 }
-.left-content > button {
+.left-content > a {
   border: none;
   display: flex;
   padding: 0.625vw 1.25vw;
@@ -145,19 +134,22 @@ button {
 
   cursor: pointer;
 }
+.open-close-icon {
+  display: none;
+}
 @media (max-width: 788px) {
   #header-col {
     height: 18.5vw;
-}
+  }
   .hdr-wrap {
     top: 2vw;
     bottom: 0;
-}
+  }
   #mainlogo {
     width: 27.445vw;
     height: 10.375vw;
   }
-  .open-close-icon{
+  .open-close-icon {
     display: block;
   }
   .nav-wrap {
@@ -190,7 +182,7 @@ button {
   .left-content > p {
     font-size: 3.938vw;
   }
-  .left-content > button {
+  .left-content > a {
     margin-top: 2.781vw;
     font-size: 1.938vw;
     padding: 2.625vw 6.45vw;
@@ -199,7 +191,34 @@ button {
   .col-details > h1 {
     font-size: 5.25vw;
   }
-  
+  .open-close-icon > span {
+    background-color: white;
+    display: block;
+    float: left;
+    height: 0.655vw;
+    margin-bottom: 2vw;
+    width: 8vw;
+    border-radius: 0.567vw;
+    transition: all 0.5s;
+  }
+  .open-close-icon {
+    display: inline-block;
+    width: 11vw;
+    margin-top: 3vw;
+    z-index: 4;
+  }
+  .open-close-icon.menuopen > span:nth-child(3) {
+    transform: rotate(42deg);
+    transition: all 0.5s;
+  }
+  .open-close-icon.menuopen > span:nth-child(2) {
+    transform: rotate(133deg);
+    margin-bottom: -1vw;
+    transition: all 0.5s;
+  }
+  .open-close-icon.menuopen > span:nth-child(1) {
+    display: none;
+  }
 }
 @media (max-width: 488px) {
   #header {
@@ -211,7 +230,7 @@ button {
   .left-content > p {
     font-size: 5.938vw;
   }
-  .left-content > button {
+  .left-content > a {
     margin-top: 1.781vw;
     font-size: 3.938vw;
     padding: 3.625vw 11.45vw;

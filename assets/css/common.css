@@ -39,6 +39,22 @@ body {
 .main-padding {
   padding: 3.75vw 11.719vw 3.75vw 11.719vw;
 }
+.menurwap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 520px;
+  background-color: #12222f;
+  z-index: 3;
+  transition: 0.5s ease-in;
+}
+.menurwap.menuopen {
+  width: 60%;
+}
+.menurwap.menuopen .mainwrap {
+  margin: 7vw 5vw;
+}
 .second-col-wrap {
   display: flex;
   align-items: center;
@@ -1047,13 +1063,13 @@ p {
   }
   .fifth-col-container {
     width: 75.031vw;
-    margin-top: 2vw;
+    margin-top: 15vw;
   }
   .six-col-wrap #six-col-tittle {
-    width: 86.492vw;
+    width: 88.492vw;
     font-size: 8.125vw;
-}
   }
+
   .six-col-container {
     justify-content: space-between;
     margin-top: 2.5vw;
@@ -1084,13 +1100,12 @@ p {
   .six-left-corner > ul > li {
     height: 28vw;
     margin-top: 2.25vw;
-}
+  }
 
   .six-right-corner section > a {
-    margin-top:6vw ;
+    margin-top: 6vw;
     padding: 2.625vw 1.25vw;
     font-size: 4.25vw;
-
   }
   .corner-content {
     width: 100%;

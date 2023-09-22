@@ -56,7 +56,6 @@
   font-family: var(--Inter);
   font-size: 1.8vw;
   font-weight: 700;
-
 }
 
 .col-left-st > p {
@@ -66,7 +65,6 @@
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-
 }
 #certified {
   width: 10.641vw;
@@ -90,7 +88,6 @@
   font-family: var(--Inter);
   font-size: 1.25vw;
   font-weight: 600;
-
 }
 .col-product-val > section > p:nth-child(2) {
   color: var(--Omni-Dark);
@@ -98,7 +95,6 @@
   font-family: var(--Inter);
   font-size: 2.188vw;
   font-weight: 700;
-
 }
 .col-product-val > section > p:nth-child(3) {
   color: #838383;
@@ -107,7 +103,6 @@
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-
 }
 .col-product-val section > a,
 .col-left-st > button {
@@ -129,7 +124,7 @@
   font-family: var(--Inter);
   font-size: 1.25vw;
   font-weight: 600;
- 
+
   cursor: pointer;
 }
 .modalscheduler {
@@ -148,46 +143,52 @@
   object-fit: cover;
 }
 @media (max-width: 788px) {
+  .main-padding {
+    padding: 3.75vw 3.719vw;
+  }
   .col-product-val {
-    flex-direction: column;
-   align-items: center;
-   justify-content: center;
-}
-.col-product-val > section {
-  width: 100%;
-  height: inherit;
-}
-.col-product-val > section > h1 {
-  font-size: 3.55vw;
-}
-.col-product-val > section > p:nth-child(2) {
-  font-size: 4.188vw;
-}
-.col-product-val > section > p:nth-child(3) {
-
-  font-size: 2.338vw;
-}
-.col-product-val section > a, .col-left-st > a {
-  gap: 6.016vw;
-  padding: 2.625vw 10.25vw;
-  border-radius: 1vw;
-  font-size: 2.25vw;
-}
-.col-product-rectanlge{
-  margin-top: 10vw;
-  height: inherit;
-}
-.col-product-rectanlge > img {
-  width: 77.641vw;
-  height: 35.057vw;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.eight-col-wrap > section h1 {
-  font-size: 4.25vw;
-}
-.eight-col-wrap > section p {
-  margin-bottom: 16px;
-  font-size: 4.188vw;
-}
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-product-val > section {
+    margin-top: 5vw;
+    width: 100%;
+    height: inherit;
+  }
+  .col-product-val > section > h1 {
+    font-size: 5.55vw;
+  }
+  .col-product-val > section > p:nth-child(2) {
+    font-size: 6.188vw;
+  }
+  .col-product-val > section > p:nth-child(3) {
+    font-size: 3.338vw;
+  }
+  .col-product-val section > a,
+  .col-left-st > a {
+    margin-top: 5vw;
+    gap: 6.016vw;
+    padding: 4.625vw 10.25vw;
+    border-radius: 1vw;
+    font-size: 5.25vw;
+  }
+  .col-product-rectanlge {
+    margin-top: 2vw;
+    height: inherit;
+    width: 100%;
+  }
+  .col-product-rectanlge > img {
+    width: 100%;
+    height: 71.057vw;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .eight-col-wrap > section h1 {
+    font-size: 4.25vw;
+  }
+  .eight-col-wrap > section p {
+    margin-bottom: 16px;
+    font-size: 4.188vw;
+  }
 }
