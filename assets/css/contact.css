@@ -209,3 +209,56 @@ input::placeholder {
     border-radius: 2vw;
   }
 }
+@media (max-width: 788px) {
+  .contact-wrap {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .contact-form-wrap > form > input::-webkit-input-placeholder {
+    font-size: 6.538vw !important;
+  }
+  .contact-row > input::-webkit-input-placeholder {
+    font-size: 6.538vw !important;
+  }
+  .contact-row {
+    gap: 4.781vw;
+  }
+  .contact-form-wrap > form > input {
+    margin-top: 4.781vw;
+  }
+  .contact-row > input {
+    width: 99%;
+    height: 18.125vw;
+    font-size: 6.538vw;
+  }
+  .contact-form-wrap > form > input {
+    height: 18.125vw;
+    font-size: 6.538vw;
+  }
+  .left-contact-info > ul > li span {
+    width: 13.805vw;
+    height: 12.805vw;
+    font-size: 6.938vw;
+  }
+  #text-message {
+    margin-top: 4.781vw;
+    height: 59vw;
+    font-size: 5.538vw;
+  }
+  .contact-form-wrap > form > button {
+    margin-top: 4.781vw;
+    height: 13vw;
+    font-size: 4.25vw;
+  }
+  .left-contact-info > ul {
+    margin-top: 5vw;
+    gap: 10vw;
+    flex-direction: column;
+  }
+  .left-contact-info > ul > li > section > h1 {
+    font-size: 5.25vw;
+  }
+  .left-contact-info > ul > li > section > p {
+    font-size: 4.938vw;
+  }
+}
