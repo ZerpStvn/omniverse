@@ -119,7 +119,6 @@ input::placeholder {
   font-family: var(--JakartaSans);
   font-size: 0.938vw;
   font-weight: 500;
-  
 }
 .contact-row {
   display: flex;
@@ -149,67 +148,64 @@ input::placeholder {
   cursor: pointer;
 }
 @media (max-width: 788px) {
-  
   .contact-wrap {
     flex-direction: column;
     align-items: center;
-}
-.left-contact-info > ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 4vw;
-}
-.left-contact-info > ul > li span {
-  width: 5.805vw;
-  height: 5.805vw;
-  font-size: 2.938vw;
-}
-.left-contact-info{
-  width: 66vw;
-}
-.left-contact-info > ul > li > section > h1 {
-
-  font-size: 3.25vw;
-}
-.left-contact-info > ul > li > section > p {
-  font-size: 2.938vw;
-}
-.contact-form-wrap{
-  margin-top: 5vw;
-  width: 100%;
-}
-.contact-row {
-  display: flex;
-  gap: 0.781vw;
-  flex-direction: column;
-}
-.contact-row > input {
-
-  width: 99%;
-  height: 7.125vw;
-  font-size: 2.538vw;
-}
-.contact-row > input::-webkit-input-placeholder{
-  font-size: 2.538vw !important;
-}
-.contact-form-wrap > form > input {
-  
-  height: 7.125vw;
-  font-size: 2.538vw;
-}
-.contact-form-wrap > form > input::-webkit-input-placeholder{
-  font-size: 2.538vw !important;
-}
-#text-message {
-  height: 22vw;
-  font-size: 2.538vw;
-}
-.contact-form-wrap > form > button {
-  height: 5vw;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.25vw;
-}
+  }
+  .left-contact-info > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4vw;
+  }
+  .left-contact-info > ul > li span {
+    width: 5.805vw;
+    height: 5.805vw;
+    font-size: 2.938vw;
+  }
+  .left-contact-info {
+    width: 66vw;
+  }
+  .left-contact-info > ul > li > section > h1 {
+    font-size: 3.25vw;
+  }
+  .left-contact-info > ul > li > section > p {
+    font-size: 2.938vw;
+  }
+  .contact-form-wrap {
+    margin-top: 5vw;
+    width: 100%;
+  }
+  .contact-row {
+    display: flex;
+    gap: 0.781vw;
+    flex-direction: column;
+  }
+  .contact-row > input {
+    width: 99%;
+    height: 13.125vw;
+    font-size: 4.538vw;
+  }
+  .contact-row > input::-webkit-input-placeholder {
+    font-size: 2.538vw !important;
+  }
+  .contact-form-wrap > form > input {
+    height: 13.125vw;
+    font-size: 2.538vw;
+  }
+  .contact-form-wrap > form > input::-webkit-input-placeholder {
+    font-size: 2.538vw !important;
+  }
+  #text-message {
+    height: 40vw;
+    font-size: 2.538vw;
+  }
+  .contact-form-wrap > form > button {
+    height: 11vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.25vw;
+    border-radius: 2vw;
+  }
 }
