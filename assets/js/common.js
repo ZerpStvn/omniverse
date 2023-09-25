@@ -5,6 +5,15 @@ $(document).ready(function () {
     offset: 200,
     once: true,
   });
+  $(window).scroll(function () {
+    var header = $("header");
+
+    if ($(window).scrollTop() > 100) {
+      header.addClass("header-fixed");
+    } else {
+      header.removeClass("header-fixed");
+    }
+  });
 
   $("#content-placeholder").text(
     "To be an excellent green energy management and marketing solutions provider in the country"

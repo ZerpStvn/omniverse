@@ -209,16 +209,16 @@ input::placeholder {
     border-radius: 2vw;
   }
 }
-@media (max-width: 788px) {
+@media (max-width: 488px) {
   .contact-wrap {
     flex-direction: column-reverse;
     align-items: start;
   }
   .contact-form-wrap > form > input::-webkit-input-placeholder {
-    font-size: 6.538vw !important;
+    font-size: 4.538vw !important;
   }
   .contact-row > input::-webkit-input-placeholder {
-    font-size: 6.538vw !important;
+    font-size: 4.538vw !important;
   }
   .contact-row {
     gap: 4.781vw;
@@ -229,11 +229,11 @@ input::placeholder {
   .contact-row > input {
     width: 99%;
     height: 18.125vw;
-    font-size: 6.538vw;
+    font-size: 4.538vw;
   }
   .contact-form-wrap > form > input {
     height: 18.125vw;
-    font-size: 6.538vw;
+    font-size: 4.538vw;
   }
   .left-contact-info > ul > li span {
     width: 13.805vw;
@@ -243,7 +243,7 @@ input::placeholder {
   #text-message {
     margin-top: 4.781vw;
     height: 59vw;
-    font-size: 5.538vw;
+    font-size: 4.538vw;
   }
   .contact-form-wrap > form > button {
     margin-top: 4.781vw;

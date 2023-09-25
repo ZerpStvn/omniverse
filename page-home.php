@@ -1,8 +1,6 @@
 <?php get_header() ?>
 <main class=" global-max_width  ">
-    <div class="menurwap">
-
-    </div>
+    <div class="menurwap"></div>
     <div class="second-col-wrap main-padding ">
         <section data-aos="fade-right" class="col-details">
             <h1>Check our Product</h1>
@@ -11,46 +9,11 @@
                 with global patents and a mission for excellence.</p>
             <a href="<?php echo get_home_url() . "/products" ?>" class="product-read-more">Learn More</a>
         </section>
-        <div data-aos="fade-left" class="col-rectanlge home-rect">
-            <img src="<?php echo get_template_directory_uri() . "/assets/images/rectangle2.svg" ?>" alt="rectangle">
+        <div data-aos="fade-left" class="col-rectanlge">
+            <img src="<?php echo get_template_directory_uri() . "/assets/images/background.png" ?>" alt="rectangle">
         </div>
     </div>
-    <div class="main-padding third-col-wrap ">
-        <!-- <div class="thirdevenContianer">
-            <div class="third-card product-card">
-                <section>
-                    <h1>PRODUCT</h1>
-                    <p>Stay up to date on the products, news and latest innovations from Premier Lift Group</p>
-                    <a href="<?php echo get_home_url() . "/products" ?>">EXPLORE</a>
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/product.jpeg" ?>" alt="">
-                </section>
-            </div>
-            <div class="third-card aboutcard">
-                <section>
-                    <h1>About</h1>
-                    <p>Our company profile, regulation details, certifications and summary.</p>
-                    <a href="<?php echo get_home_url() . "/about" ?>">EXPLORE</a>
-                    <img src="<?php echo get_template_directory_uri() . "/assets/images/abiut.jpg" ?>" alt="">
-                </section>
-            </div>
-        </div> -->
-        <section data-aos="fade-right" class="third-col-details">
-            <div class="third-col-section">
-                <h1>
-                    Omniverse Project Background
-                </h1>
-                <p>EER-SPG harnesses electromagnetic energy flux for clean, sustainable electricity, offering an
-                    eco-friendly alternative to fossil fuel-based power generation</p>
-            </div>
-            <p>EER-SPG revolutionizes energy generation, using electromagnetic energy flux to combat environmental
-                pollution and climate change, offering a green and sustainable power solution.</p>
 
-        </section>
-        <iframe class="third-col-holder" src="https://www.youtube.com/embed/1kUE0BZtTRc?si=dzLrzpEw60j2NgLQ"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </div>
     <div id="services" class="main-padding fouth-col-wrap">
         <section data-aos="fade-right" class="fouth-col-details">
             <h1>
@@ -94,7 +57,7 @@
                                         ?>
                                     </p>
                                 </div>
-                                <a href="" class="read-more">Learn More</a>
+                                <a href="<?php echo the_permalink(); ?>" class="read-more">Learn More</a>
                             </section>
                             <div data-aos="fade-left" class="list-container-holder">
                                 <img class="list-service-holder" src=" <?php echo get_the_post_thumbnail_url(); ?>"
@@ -108,19 +71,6 @@
             </div>
         <?php endif; ?>
 
-    </div>
-    <div class="main-padding fifth-col-wrap">
-        <iframe class="fifth-col-container" src="https://www.youtube.com/embed/aYBGSfzaa4c?si=1VJsNlALKUjOhcLi"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <img id="bgwhirl" src="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg" ?>" alt="logo">
-        <section data-aos="fade-right" class=" fifth-details-wrap">
-            <h1>Lorem Ipsum</h1>
-            <p>The most engaging way to train your employees. Take the next step to your advantage</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button>Send us message</button>
-        </section>
     </div>
     <div class="main-padding six-col-wrap">
         <p id="six-col-tittle">
@@ -181,32 +131,18 @@
             </div>
         </div>
     </div>
-    <div class="main-padding seventh-col-wrap">
-        <section class="seventh-section">
-            <h1>Choose and edit an
-                Environment</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
-                text of the printing and typesetting industry.</p>
-        </section>
-        <div class="seventh-list">
-            <ul id="seventh-listveiw">
-                <li>
-                    <div class="classcardimage"></div>
-                </li>
-                <li>
-                    <div class="classcardimage"></div>
-                </li>
-                </li>
-                <li>
-                    <div class="classcardimage"></div>
-                </li>
-                </li>
-                <li>
-                    <div class="classcardimage"></div>
-                </li>
+    <div class="main-padding fifth-col-wrap">
+        <iframe class="fifth-col-container" src="https://www.youtube.com/embed/aYBGSfzaa4c?si=1VJsNlALKUjOhcLi"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <img id="bgwhirl" src="<?php echo get_template_directory_uri() . "/assets/images/bgwhirl.svg" ?>" alt="logo">
+        <section data-aos="fade-right" class=" fifth-details-wrap">
+            <h1>Lorem Ipsum</h1>
+            <p>The most engaging way to train your employees. Take the next step to your advantage</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-            </ul>
-        </div>
+        </section>
     </div>
     <div class="eight-col-wrap main-padding">
         <section class="eight-left-corner">
@@ -227,7 +163,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <a href="<?php echo get_home_url() . "/about" ?>">Send us message</a>
+                    <a>Schedule a Meeting</a>
                 </section>
             </div>
         </section>
@@ -277,6 +213,50 @@
             </ul>
         </div>
     </div>
+    <div class="main-padding seventh-col-wrap">
+        <section class="seventh-section">
+            <h1>Choose and edit an
+                Environment</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy
+                text of the printing and typesetting industry.</p>
+        </section>
+        <div class="seventh-list">
+            <ul id="seventh-listveiw">
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+                </li>
+                <li>
+                    <div class="secenth-center circularAvart">
+                        <img src="<?php echo get_template_directory_uri() . "/assets/images/circularAvartar.svg" ?>"
+                            alt="">
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
     <div class="main-padding-nnth nnth-col-wrap">
         <section>
             <h1>Omniverse</h1>

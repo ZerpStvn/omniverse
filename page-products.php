@@ -1,24 +1,7 @@
 <?php get_header() ?>
 <main id="product-main">
     <div class="product-us-col main-padding">
-        <!-- <div class="product-col-top">
-            <div class="product-col-details">
-                <h1>Electromagnetic energy flux Reactor (EER)<br /> Stationary Power
-                    Generation (SPG)</h1>
-                <div class="sliderwrapper">
-                    <div><img src="<?php echo get_template_directory_uri() . "/assets/images/generator.jpg" ?>" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-left-st">
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/certified.jpg" ?>" alt=""
-                    id="certified">
-                <button> Book a meeting</button>
-                <img src="<?php echo get_template_directory_uri() . "/assets/images/generator.jpg" ?>" alt=""
-                    id="sectionimg">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime magni nihil quo, at velit,</p>
-            </div>
-        </div> -->
+
         <div class="col-product-val">
             <section data-aos="fade-right">
                 <h1>PRODUCT</h1>
@@ -41,7 +24,7 @@
                     amet
                     quisquam libero aliquid ducimus tenetur distinctio! Alias, suscipit.</p>
 
-                    <a href="<?php echo get_home_url(  ). "/contact"?>">Send us message</a>
+                <a href="<?php echo get_home_url() . "/contact" ?>">Send us message</a>
             </section>
             <div data-aos="fade-left" class="col-product-rectanlge">
                 <img src="<?php echo get_template_directory_uri() . "/assets/images/turbine.jpg" ?>" alt="">
@@ -64,7 +47,7 @@
                         <li>Lorem Ipsum is simply dummy</li>
                         <li>Lorem Ipsum is simply dummy</li>
                     </ul>
-                    <a href="<?php echo get_home_url(  ). "/contact"?>">Send us message</a>
+                    <a href="<?php echo get_home_url() . "/contact" ?>">Send us message</a>
                 </section>
             </div>
         </section>
