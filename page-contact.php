@@ -1,6 +1,15 @@
 <?php get_header() ?>
 <main>
     <div class="contact-wrap main-padding">
+        <div class="menurwap">
+            <nav id="nav">
+                <ul>
+                    <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
+                    <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
+                    <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="left-contact-info">
             <ul>
                 <li>

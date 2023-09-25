@@ -1,7 +1,15 @@
 <?php get_header() ?>
 <main id="product-main">
     <div class="product-us-col main-padding">
-
+        <div class="menurwap">
+            <nav id="nav">
+                <ul>
+                    <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
+                    <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
+                    <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="col-product-val">
             <section data-aos="fade-right">
                 <h1>PRODUCT</h1>

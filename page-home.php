@@ -1,6 +1,14 @@
 <?php get_header() ?>
 <main class=" global-max_width  ">
-    <div class="menurwap"></div>
+    <div class="menurwap">
+        <nav id="nav">
+            <ul>
+                <li><a href="<?php echo get_home_url() . '/about'; ?>">About Us</a></li>
+                <li><a href="<?php echo get_home_url() . '/products' ?>">Product</a></li>
+                <li><a href="<?php echo get_home_url() . '/contact' ?>">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="second-col-wrap main-padding ">
         <section data-aos="fade-right" class="col-details">
             <h1>Check our Product</h1>
